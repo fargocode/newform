@@ -1,0 +1,89 @@
+/* Basic reset */
+body, h2, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full height and centering */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url("blue-nature-background-4\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1%;
+    padding: -50%;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    font-size: larger;
+    font-family: cursive;
+    margin-bottom: 20px;
+    color: rgb(252, 252, 252);
+}
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 15px;
+   
+}
+
+
+.input-groupB input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.loginbox {
+    background-color: rgba(0, 0, 120, 0.874);
+    text-align:center;
+    box-sizing: content-box;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 25%;
+    margin-bottom: 25%;
+    height: 50px;
+}
+.forget-password{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.create-new-account{
+    margin-bottom: 15px;  
+}
